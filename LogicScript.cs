@@ -14,4 +14,11 @@ public class LogicScript : MonoBehaviour
         playerScore = playerScore + scoreToAdd;
         scoreText.text = playerScore.ToString();
     }
+    void Awake()
+    {
+     string [] anything = {"wawa","wewe","wiwi","wowo","wuwu"};
+     for(int i=0; i<anything.Length; i++;){
+        Debug.Log(anything[i])
+     }
+    }
 }
